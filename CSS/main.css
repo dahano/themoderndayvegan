@@ -1,0 +1,348 @@
+/* ===================================================
+LIVE CLEAN BETA 
+=================================================== */
+   /**
+   Clear Fix
+   **/
+   .cf:before,
+   .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+   }
+
+   .cf:after {
+    clear: both;
+   }
+
+   /**
+    * For IE 6/7 only
+    * Include this rule to trigger hasLayout and contain floats.
+    */
+   .cf {
+       *zoom: 1;
+   }
+/*******************
+Index
+*******************/
+
+   body {
+
+   }
+   .business-header {
+   height: 400px;
+   background: url(http://www.dailyhiit.com/hiit-blog/wp-content/uploads/2013/07/vegan2.jpg) center center no-repeat;
+   background-size: cover;
+   }
+
+   .tagline {
+   color: #fff;
+   text-shadow: 0 0 10px #000;
+   font-size: 32px;
+   text-align: center;
+   }
+
+   .tagline-quote  {
+   color:#fff;
+   text-shadow: 0 0 10px #000;
+   font-size: 32px;
+   text-align: center;
+   padding-right:180px;
+   padding-top: 240px;
+   position: absolute;
+   }
+
+   .socialtags {
+   display: inline-block;
+   width: 400px;
+   }
+
+   .socialtags img{
+   display: inline-block;
+   width:75px;
+   float: left;
+   }
+
+   .socialtags {
+   display: inline-block;
+   width: 70px;
+   }
+
+
+   .col-sm-8 {
+   width: 66.666666666666%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   }
+   
+   #veggie-navigation li{
+   display: block;
+   float:right;
+   margin-right:95px;
+   width: 340px;
+   height: 310px;
+   text-decoration: none;
+   position: relative;
+   background:url("../images/watermelon.jpg");
+   background-position: top; 
+   }
+
+
+   #veggie-navigation a{
+   color: #fff;
+   text-shadow: 0 0 10px #000;
+   text-decoration: none;
+   padding-left:130px;
+   padding-top:130px;   
+   position: absolute;
+   font-size: 22px;
+   }
+
+   #veggie-navigation-info li{
+   display: block;
+   float:left;
+   width: 164px;
+   position: relative;
+   padding-right: 163px;
+   padding-left:112px;
+   text-decoration: none;
+   padding-bottom: 50px;
+   }
+   
+   .col-lg-8  p {
+   margin:0 0 10px;
+   padding-left:55px;
+   padding-right:55px;
+   }
+
+   .home-navi h1 {
+   border-top:1px solid #eeeeee;
+   padding-top:25px;
+   padding-left:40px;   
+   }
+
+   .col-lg-8 h2{
+   font-size: 31.5px; 
+   padding-left:48px;  
+   }
+
+   .col-lg-12 p {
+   padding-left:25px;
+   color:#fff;
+   }
+
+   .video{
+   width:720px;
+   padding-left: 48px;
+   padding-bottom:50px;
+   margin:0px;
+   }
+
+   .home-video-week h2 {
+   border-top:1px solid #eeeeee;
+   padding-top:25px;
+   padding-left: 48px;
+   padding-bottom: 25px;
+   }
+
+
+   .video p{
+   float:left;
+   width:335px;
+   margin-left:30px;
+   }
+
+   .video a{
+   float: left;
+   }
+   
+   /*Footer*/
+   .footer {
+   background-color: #CC3E3E;
+   overflow: hidden;
+   width:1342px;
+   clear: both;
+   }
+
+   .container {
+   margin:0 auto;
+   } 
+
+   .span2 h4 {
+   color:#fff;
+   text-shadow: 0 0 10px #000;
+   }
+
+   .span2 li { 
+   text-decoration: none;
+   list-style: none;
+   }
+
+   .textbox {
+   float:right;
+   text-align: left;
+   }
+   .textbox p{
+   display: block;
+   width:335px;
+   padding-right:475px;
+   }
+   
+   /*Footer*/
+   .footer {
+   background-color: #CC3E3E;
+   overflow: hidden;
+   position:absolute;
+   width:1342px;
+   }
+
+   .container {
+   margin:0 auto;
+   } 
+
+   .span2 h4 {
+   color:#fff;
+   text-shadow: 0 0 10px #000;
+   }
+
+   .span2 li { 
+   text-decoration: none;
+   list-style: none;
+   }
+
+   .span2 a {
+   color:#fff;
+   font-size: 13px;
+   text-shadow: 0 0 10px #000;
+   }
+
+   .span2 li a:hover{
+   color: #09C8F8; 
+   text-decoration: none;
+   text-shadow: 0 0 10px #000;
+   }
+
+   .span2 a {
+   color:#fff;
+   font-size: 13px;
+   text-shadow: 0 0 10px #000;
+   }
+
+
+   .span2 li a:hover{
+   color: #09C8F8; 
+   text-decoration: none;
+   text-shadow: 0 0 10px #000;
+   }
+
+
+
+
+/*******************
+RECIPES Page
+*******************/
+   .container {
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   } 
+
+   .pagetitle {
+   position: relative;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   } 
+
+   .page-header {
+   padding-bottom: 35px;
+   margin: 40px 0 20px;
+   border-bottom: 1px solid #eeeeee;
+   }
+
+   .container {
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   } 
+
+   .pagetitle {
+   position: relative;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   } 
+
+  .page-header {
+  padding-bottom: 35px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+  }
+
+  .recipetext{
+  float:left;
+  }
+
+  .recipetext li{
+  }
+
+  .recipetext ul{
+  padding:0;
+  }
+   
+
+/*********************
+   Blog Page
+*********************/
+   
+  .authorpicture img{
+  width:auto;
+  padding-left: 217px;
+
+  }
+
+  .blogstart p {
+  display: block;
+  padding-top:25px;
+  padding-left: 217px;
+  width: 1120px;
+  }
+
+  .blogstart {
+  padding-bottom:90px;
+  }
+
+
+
+
+
+/*********************
+   Footer Info
+*********************/
+
+   .col-lg-12 {
+   padding-top: 30px;
+   }
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

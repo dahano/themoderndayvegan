@@ -50,24 +50,7 @@ Home
    padding-top: 240px;
    position: absolute;
    }
-
-   .socialtags {
-   display: inline-block;
-   width: 400px;
-   }
-
-   .socialtags img{
-   display: inline-block;
-   width:75px;
-   float: left;
-   }
-
-   .socialtags {
-   display: inline-block;
-   width: 70px;
-   }
-
-
+   
    .col-sm-8 {
    width: 66.666666666666%;
    float:left;

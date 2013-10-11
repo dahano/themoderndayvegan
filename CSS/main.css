@@ -162,87 +162,6 @@ Home
    .video a{
    float: left;
    }
-   
-   /*Footer*/
-   .footer {
-   background-color: #CC3E3E;
-   overflow: hidden;
-   width:1342px;
-   clear: both;
-   }
-
-   .container {
-   margin:0 auto;
-   } 
-
-   .span2 h4 {
-   color:#fff;
-   text-shadow: 0 0 10px #000;
-   }
-
-   .span2 li { 
-   text-decoration: none;
-   list-style: none;
-   }
-
-   .textbox {
-   float:right;
-   text-align: left;
-   }
-   .textbox p{
-   display: block;
-   width:335px;
-   padding-right:475px;
-   }
-   
-   /*Footer*/
-   .footer {
-   background-color: #CC3E3E;
-   overflow: hidden;
-   position:absolute;
-   width:1342px;
-   }
-
-   .container {
-   margin:0 auto;
-   } 
-
-   .span2 h4 {
-   color:#fff;
-   text-shadow: 0 0 10px #000;
-   }
-
-   .span2 li { 
-   text-decoration: none;
-   list-style: none;
-   }
-
-   .span2 a {
-   color:#fff;
-   font-size: 13px;
-   text-shadow: 0 0 10px #000;
-   }
-
-   .span2 li a:hover{
-   color: #09C8F8; 
-   text-decoration: none;
-   text-shadow: 0 0 10px #000;
-   }
-
-   .span2 a {
-   color:#fff;
-   font-size: 13px;
-   text-shadow: 0 0 10px #000;
-   }
-
-
-   .span2 li a:hover{
-   color: #09C8F8; 
-   text-decoration: none;
-   text-shadow: 0 0 10px #000;
-   }
-
-
 
 
 /*******************
@@ -329,7 +248,15 @@ RECIPES Page
   padding-bottom:90px;
   }
 
+/********************
+30 day Blog
+*********************/
+  .section_description {
+  float:left;
+  padding-bottom: 100px;
+  
 
+  }
 
 
 
@@ -340,7 +267,86 @@ RECIPES Page
    .col-lg-12 {
    padding-top: 30px;
    }
-  
+     
+   .footer {
+   background-color: #CC3E3E;
+   overflow: hidden;
+   width:1342px;
+   clear: both;
+   }
+
+   .container {
+   margin:0 auto;
+   } 
+
+   .span2 h4 {
+   color:#fff;
+   text-shadow: 0 0 10px #000;
+   }
+
+   .span2 li { 
+   text-decoration: none;
+   list-style: none;
+   }
+
+   .textbox {
+   float:right;
+   text-align: left;
+   }
+   .textbox p{
+   display: block;
+   width:335px;
+   padding-right:475px;
+   }
+
+   .footer {
+   background-color: #CC3E3E;
+   overflow: hidden;
+   position:absolute;
+   width:1342px;
+   }
+
+   .container {
+   margin:0 auto;
+   } 
+
+   .span2 h4 {
+   color:#fff;
+   text-shadow: 0 0 10px #000;
+   }
+
+   .span2 li { 
+   text-decoration: none;
+   list-style: none;
+   }
+
+   .span2 a {
+   color:#fff;
+   font-size: 13px;
+   text-shadow: 0 0 10px #000;
+   }
+
+   .span2 li a:hover{
+   color: #09C8F8; 
+   text-decoration: none;
+   text-shadow: 0 0 10px #000;
+   }
+
+   .span2 a {
+   color:#fff;
+   font-size: 13px;
+   text-shadow: 0 0 10px #000;
+   }
+
+
+   .span2 li a:hover{
+   color: #09C8F8; 
+   text-decoration: none;
+   text-shadow: 0 0 10px #000;
+   }
+
+
+
  
 
 

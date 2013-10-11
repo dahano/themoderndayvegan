@@ -50,7 +50,7 @@ Home
    padding-top: 240px;
    position: absolute;
    }
-   
+
    .col-sm-8 {
    width: 66.666666666666%;
    float:left;
@@ -237,9 +237,24 @@ RECIPES Page
   .section_description {
   float:left;
   padding-bottom: 100px;
-  
-
   }
+
+/*********************
+About us
+*********************/
+.authorbio p{
+float:right;
+width:945px;
+border-bottom:1px solid #C95353;
+padding-left:6px;
+padding-bottom:65px;
+}
+
+.authorbio img {
+float: left;
+padding-top:25px;
+padding-bottom:10px;
+}
 
 
 

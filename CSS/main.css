@@ -63,8 +63,8 @@ Home
    #veggie-navigation li{
    display: block;
    float:right;
-   margin-right:95px;
-   width: 340px;
+   margin-right:90px;
+   width: 326px;
    height: 310px;
    text-decoration: none;
    position: relative;
@@ -86,7 +86,7 @@ Home
    #veggie-navigation-info li{
    display: block;
    float:left;
-   width: 164px;
+   width: 141px;
    position: relative;
    padding-right: 163px;
    padding-left:112px;

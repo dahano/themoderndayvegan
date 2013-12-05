@@ -14,6 +14,8 @@ The Modern Day Veagn
     clear: both;
    }
 
+   /* At this point, I'd say forget IE6/7! */
+
    /**
     * For IE 6/7 only
     * Include this rule to trigger hasLayout and contain floats.
@@ -25,6 +27,7 @@ The Modern Day Veagn
 Home
 *******************/
 
+  /* Might as well remove it if it's not needed */
    body {
 
    }
@@ -59,7 +62,14 @@ Home
    padding-right: 15px;
    padding-left: 15px;
    }
-   
+
+   /*
+      In general, I would avoid using ids and decendent element selectors
+      to understand a bit of why, I'd check out some stuff on OOCSS, such as:
+      http://coding.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss 
+
+      It will also make more sense if you start coding with other people and run into specificity issues
+    */
    #veggie-navigation li{
    display: block;
    float:right;
@@ -105,6 +115,7 @@ Home
    padding-right:55px;
    }
 
+   /* This is a perfect example where you could give the h1 a class instead, and then if you ever need that style again, you can simply apply the class */
    .home-navi h1 {
    border-top:1px solid #eeeeee;
    padding-top:25px;
@@ -116,20 +127,34 @@ Home
    padding-left:48px;  
    }
 
-   .col-lg-12 p {
-   padding-left:25px;
-   color:#fff;
-   }
+  /*
+    In general, your indenting is a bit schizophrenic
 
-   .video{
-   width:720px;
-   padding-left: 48px;
-   padding-bottom:50px;
-   margin:0px;
-   }
+    Each place you work will have their own style guides, but it's a good idea to think about
+    how others would read your code.
+
+    Below is just some small changes I've made:
+      1. .whatever<always have a space here>{
+      2. You should set your tab width to 2 spaces, and indent using spaces. Then all your code should fall along these indent marks
+      3. Spaces between the colon (hehe) and the value, e.g. margin:<space here>10px;
+
+    I know this stuff seems anal, but really does help when you need to read through a shitload of code
+  */
+  .col-lg-12 p {
+    padding-left: 25px;
+    color: #fff;
+  }
+
+  .video {
+    width: 720px;
+    padding-left: 48px;
+    padding-bottom: 50px;
+    margin: 0px;
+  }
 
    .home-video-week h2 {
    border-top:1px solid #eeeeee;
+   /* Consider combining padding into 1 rule, e.g. padding: 25px 0 48px 25px; */
    padding-top:25px;
    padding-left: 48px;
    padding-bottom: 25px;
@@ -150,26 +175,7 @@ Home
 /*******************
 RECIPES Page
 *******************/
-   .container {
-   padding-right: 15px;
-   padding-left: 15px;
-   margin-right: auto;
-   margin-left: auto;
-   } 
-
-   .pagetitle {
-   position: relative;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   } 
-
-   .page-header {
-   padding-bottom: 35px;
-   margin: 40px 0 20px;
-   border-bottom: 1px solid #eeeeee;
-   }
-
+   /* Removed duplicate styles */
    .container {
    padding-right: 15px;
    padding-left: 15px;
@@ -392,6 +398,8 @@ padding-bottom:10px;
   display: inline;
 }
 
+/* These types of selectors will be a nightmare to work with later for others on your team */
+/* OOCSS, baby. It's the only way to go */
 .pagination > li > a,
 .pagination > li > span {
   position: relative;

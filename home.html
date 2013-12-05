@@ -7,8 +7,11 @@
 		<meta name="author" content="Ofir Dahan">
 		
 		<!-- Stylesheets -->
-		<link rel="stylesheet" href="css/main.css">
 		<link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- You want to put your styles after bootstrap.css -->
+    <!-- That way, if you need to target something with the same selector, your style will win in the cascase -->
+    <link rel="stylesheet" href="css/main.css">
 		
 		<!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,400' rel='stylesheet' type='text/css'>
@@ -20,8 +23,8 @@
 		<!--Header -->
 	    <div class="business-header">
 	      <div class="container">
-	          <div class="col-lg-12">
-	            <h1 class="tagline">The Modern Day Vegan</h1>
+	          <div class="col-lg-12"> <!-- I'd say either go with your grid system or bootstrap, but probably no need for both -->
+	            <h1 class="tagline"><!-- Liking these class names: semantic and easy to understand -->The Modern Day Vegan</h1>
 	            <span class="tagline-quote">To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear. - Buddha</span>
 	          </div>	        
 	      </div>
@@ -38,20 +41,21 @@
         <!-- Contact us information and Social Media Widgets-->
         <div class="col-lg-4 col-sm-4">
           <h2>Contact Us</h2>
-		  <address>
-  			<strong>Facebook & Twitter</strong><br>
-  			www.facebook.com/themoderndayvegan<br>
-			www.twitter.com/themoderndayvegan<br>
-			<abbr title="Email">E:</abbr> <a href="mailto:#">first.mdv@emoderndayvegan.com</a>
-		  </address>
+          <!-- In general, I'd watch indentation a bit more. Good indentation makes HTML much easier to read -->
+    		  <address>
+      			<strong>Facebook & Twitter</strong><br> <!-- I'd almost consider just having links: Not sure the heading is necessary -->
+      			www.facebook.com/themoderndayvegan<br>
+    			www.twitter.com/themoderndayvegan<br>
+    			<abbr title="Email">E:</abbr> <a href="mailto:#">first.mdv@emoderndayvegan.com</a>
+    		  </address>
         </div>
      </div>
 
      	<!--Home navigation (the Watermelon image) & the info under them-->
 		<div class="home-navi">
 			<h1>Check out some of our pages!</h1>
-			<div id="veggie-navigation" class="cf">
-				<nav>
+			<div id="veggie-navigation" class="cf"> <!-- Made this point earlier, but I'd go with either you clearfix or Bootstrap. That way you don't need both in your CSS files -->
+				<nav> <!-- nice use of html5 elements! -->
 					<ul> 
 						<li><a href="file:///Users/odahan/veganblog/moderndayvegan/30daychallenge.html">30Days</a></li>
 						<li><a href="file:///Users/odahan/veganblog/moderndayvegan/blog.html">Blog</a></li>
@@ -63,8 +67,13 @@
 			<div id="veggie-navigation-info" class="cf">
 				<nav>
 					<ul>
-						<li><a href="file:///Users/odahan/veganblog/moderndayvegan/recipe.html"><h3>Recipes</h3></a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></li>
+            <!-- Just another style change to show how I might structure the indentation -->
+						<li>
+              <a href="file:///Users/odahan/veganblog/moderndayvegan/recipe.html">
+                <h3>Recipes</h3>
+              </a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </li>
 						<li><a href="file:///Users/odahan/veganblog/moderndayvegan/blog.html"><h3>Blog</h3></a>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p></li>
 						<li><a href="file:///Users/odahan/veganblog/moderndayvegan/30daychallenge.html"><h3>30 Days</h3></a>
